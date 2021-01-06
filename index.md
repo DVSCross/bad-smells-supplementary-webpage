@@ -1,37 +1,69 @@
-## Welcome to GitHub Pages
+### Supplementary Webpage ###
 
-You can use the [editor on GitHub](https://github.com/DVSCross/bad-smells-supplementary-webpage/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Webpage for sharing supplementary info for the work: Improving Bad Smells Detection with Machine Learning and Expert Feedback
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Dataset Download
 
-### Markdown
+**Class Level**
+- [God Class](https://drive.google.com/open?id=1VRkqyqjKG98COWuhaed-_40vkBDKD8y0)
+- [Refused Parent Bequest](https://drive.google.com/open?id=1m4wEa5WuzeG1t7LV0u8qxtRKRwS7ivKc)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Method Level**
+- [Long Method](https://drive.google.com/open?id=1izd9i_D0KHO-PNvQJ6k17Qc-jMufgJra)
+- [Feature Envy](https://drive.google.com/open?id=18Xu1UNyrwkH4C6fqQ8iOap_2gPQgZyp1)
 
-```markdown
-Syntax highlighted code block
+### List of Systems
+- apache-commons-lang
+- apache-commons-codec
+- apache-commons-io
+- apache-commons-logging
+- apache-lucene
+- checkstyle
+- hadoop
+- hibernate
+- htmlunit
+- jasperreports
+- jfreechart
+- jhotdraw
+- jmeter
+- quartz
+- spring-framework
+- squirrelsql
+- struts
+- tapestry
+- tomcat
+- weka
 
-# Header 1
-## Header 2
-### Header 3
+### Manual Validation Questions
+*The answer after the question defines which answer indicates the presence of Bad Smell.*
 
-- Bulleted
-- List
+**God Class**
+- Does the class have more than one responsibility? *Yes*
+- Does the class have functionality that would fit better into other classes? *Yes*
+- Would splitting up the class improve the overall design? *Yes*
 
-1. Numbered
-2. List
+*Reference: Building Empirical Support for Automated Code Smell Detection. Jan Schumacher et al.*
 
-**Bold** and _Italic_ and `Code` text
+**Refused Parent Bequest**
+- Does the class use only a little of parent's behaviour? *Yes*
+- Does the parent class provide more than a few protected members? *Yes*
+- Does the class is too small/simple? *No*
 
-[Link](url) and ![Image](src)
-```
+*Reference: Object-Oriented Metrics in practice. Michele Lanza, Radu Marinescu. (Book)*
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**Long Method**
+- Does the method have many conditional branches? *Yes*
+- Does the method is excessively large? *Yes*
+- Does the method use many variables? *Yes*
 
-### Jekyll Themes
+*Reference: Object-Oriented Metrics in practice. Michele Lanza, Radu Marinescu. (Book)*
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DVSCross/bad-smells-supplementary-webpage/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**Feature Envy**
+- Does the method use directly more than a few attributes of other classes? *Yes*
+- Does the method use far more attributes from other classes than its own? *Yes*
+- Do the used "foreign" attributes belong to very few other classes? *Yes*
 
-### Support or Contact
+*Reference: Object-Oriented Metrics in practice. Michele Lanza, Radu Marinescu. (Book)*
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Related Work 
+[Comparison Summary](https://drive.google.com/file/d/1uteFL36uRJqBnnANA0H1Hbt7lrXayp40/view?usp=sharing)
