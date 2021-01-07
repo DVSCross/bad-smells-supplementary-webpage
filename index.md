@@ -32,6 +32,43 @@
 - tomcat
 - weka
 
+### List of Metrics
+
+#### Class Level
+- Couple Between Objects (CBO)
+- McCabe Cyclomatic Complexity (CYC)
+- Data Abstraction Coupling (DAC)
+- Depth of Inheritance Tree (DIT)
+- Improved Lack of Cohesion in Methods (ILCOM)
+- Lack of Cohesion in Methods (LCOM)
+- Locality of Data (LD)
+- Length of Class Names (LEN)
+- Lines of Code (LOC)
+- Lack of Documentation (LOD)
+- Message Passing Coupling (MPC)
+- Number of Attributes and Methods (NAM)
+- Number of Children (NOC)
+- Number of Local Methods (NOM)
+- Response For a Class (RFC)
+- Tight Class Cohesion (TCC)
+- Weighted Method Count (WMC)
+
+#### Method Level
+- Couple Between Objects (CBO)
+- Highest Number of Nested Blocks (maxNestedBlocks)
+- Lines of Code (LOC)
+- Number of Unique Words (uniqueWordsQty)
+- Quantity of Assignments (assignmentsQty)
+- Quantity of Comparisons (comparisonsQty)
+- Quantity of Loops (loopQty)
+- Quantity of Parenthesized Expressions (parenExpsQty)
+- Quantity of Variables (variables)
+- Response For a Class (RFC)
+- Size of Parameter List (parameters)
+- Method Start Line(startLine)
+- Weighted Method Count (WMC)
+
+
 ### Manual Validation Questions
 *The answer after the question defines which answer indicates the presence of Bad Smell.*
 
